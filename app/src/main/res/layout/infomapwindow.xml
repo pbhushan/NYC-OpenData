@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/accident_details"
+        android:id="@+id/collision_detail"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size"
+        android:text="@string/incident_date"
+        android:id="@+id/incident_date"
+        android:layout_below="@+id/collision_detail"
+        android:layout_marginTop="@dimen/top_margin_medium"
+       />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size"
+        android:text="@string/area"
+        android:id="@+id/area"
+        android:layout_below="@+id/incident_date"
+        android:layout_marginTop="@dimen/top_margin_small"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size"
+        android:text="@string/casualty"
+        android:id="@+id/casualty"
+        android:layout_below="@+id/area"
+        android:layout_marginTop="@dimen/top_margin_small"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size"
+        android:text="@string/vehicle_factor"
+        android:id="@+id/vehicle_factor"
+        android:layout_below="@+id/casualty"
+        android:layout_marginTop="@dimen/top_margin_small"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size"
+        android:text="@string/Vehicle_type"
+        android:id="@+id/vehicle_type"
+        android:layout_below="@+id/vehicle_factor"
+        android:layout_marginTop="@dimen/top_margin_small"
+        />
+
+
+</RelativeLayout>

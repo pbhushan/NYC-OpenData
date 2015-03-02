@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NYCAccidentMap</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="zip_code">NYC Zip Code</string>
+    <string name="search">Search</string>
+    <string name="incident_date">Happened On: </string>
+    <string name="area"> Location: </string>
+    <string name="casualty"> Casualty:  </string>
+    <string name="vehicle_factor"> Vehicle Factor:  </string>
+    <string name="Vehicle_type">Vehicle Type: </string>
+    <string name="accident_details">Collision Detail</string>
+</resources>
